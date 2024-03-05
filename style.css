@@ -1,8 +1,67 @@
-.parallax {
-    background-image: url("background.png");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.heading_text {
+    border-bottom: 2px solid #C60F7B;
+    color: #C60F7B;
+}
+
+p {
+    font-size: 14pt;
+}
+
+.container {
+    margin: 40px;
+}
+
+.navbar {
+    margin: 0 auto;
+    border-top: 2px solid #C60F7B;
+    border-bottom: 2px solid #C60F7B;
+    background-color: white;
+}
+
+#grad_photo {
+    height: 350px;
+    display: block;
+}
+
+.icons {
+    height: 70px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.ed_text {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.ed_list {
+    font-size: 14pt;
+    list-style-type: circle;
+}
+
+.skills_text {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.languages {
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.accordion-button {
+    --bs-accordion-active-bg: #C60F7B;
+    --bs-accordion-active-color: white;
+    font-weight: 600;
+}
+
+.languages_used {
+    font-weight: 600;
+}   
+
+.resume_link {
+    color: #C60F7B;
 }
